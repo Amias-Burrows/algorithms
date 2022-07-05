@@ -18,10 +18,17 @@ To access the projects you can currently only use the browser console.  The `ind
 The list object name is `list`
 
 - To add element
-    list.add([contents-of-current], [node-this-points-to (*null* for empty)]);
+
+        list.add([contents-of-current], [node-this-points-to (*null* for empty)]);
+
 - To list nodes in list in order
-    list.list();
+
+        list.list();
+
 - To reverse list
-    list.reverse();
+
+        list.reverse();
+
 - To remove node	**(Not working)**
-    list.remove([node-to-be-removed]);
+
+        list.remove([node-to-be-removed]);
