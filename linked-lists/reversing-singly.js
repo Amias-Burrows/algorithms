@@ -275,3 +275,38 @@ class linked_list {
  */
 
 let list = new linked_list();
+
+user();
+
+/*
+ * Allows the use of node.js in command line
+ */
+
+function user() {
+
+	let cmd = prompt('Type command: ');
+
+	switch(cmd) {
+
+		case add:
+
+			let contents = prompt('Type contents of node');
+			let next = prompt('Variable name of next node or contents of next node.  Null for no next');
+			list.add(contents, next);
+
+			break;
+		case list:
+
+			list.list();
+
+			break;
+		case reverse:
+
+			list.reverse();
+
+			break;
+		case remove:
+
+			break;
+	}
+}
