@@ -35,8 +35,8 @@ The list object name is `list`
 
 ### Bubble Sort
 
-To print the list in it's current state use 'print()'
+To print the list in it's current state use `print()`
 
-To sort the list with the normal Bubble Sort use 'sort()'
+To sort the list with the normal Bubble Sort use `sort()`
 
-To sort the list with a more efficient Bubble Sort Method use 'efficient_sort()'
+To sort the list with a more efficient Bubble Sort Method use `efficient_sort()`
