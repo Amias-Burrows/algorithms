@@ -280,11 +280,13 @@ user();
 
 /*
  * Allows the use of node.js in command line
- */
+ *
 
 function user() {
+	let readline = require('readline');
 
-	let cmd = 'list';
+	console.log('Type the command or type "help" for options');
+	let cmd = readline(':> ');
 
 	switch(cmd) {
 
@@ -307,6 +309,9 @@ function user() {
 			break;
 		case 'remove':
 
+			break;
+		case 'help':
+			return 'add [contents] [next]\n adds node to list.\n\nlist\n lists the current nodes in order of the list\n\nreverse\nreverses the current list of nodes\n\nremove [node(or contents)]\nRemoves a node from the list';
 			break;
 		default:
 
