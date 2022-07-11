@@ -284,28 +284,40 @@ user();
 
 function user() {
 
-	let cmd = prompt('Type command: ');
+	let cmd = 'list';
 
 	switch(cmd) {
 
-		case add:
+		case 'add':
 
-			let contents = prompt('Type contents of node');
-			let next = prompt('Variable name of next node or contents of next node.  Null for no next');
+			let contents = '1';
+			let next = null;
 			list.add(contents, next);
 
 			break;
-		case list:
+		case 'list':
 
 			list.list();
 
 			break;
-		case reverse:
+		case 'reverse':
 
 			list.reverse();
 
 			break;
-		case remove:
+		case 'remove':
+
+			break;
+		default:
+
+			if (cmd == null || cmd == '') {
+
+				return 'Please input command';
+
+			} else {
+
+				return 'Command not recognised';
+			}
 
 			break;
 	}
