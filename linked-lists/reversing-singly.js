@@ -1,4 +1,4 @@
-console.log('Reversing Singly Loaded');
+console.log('Reversing Singly List');
 
 	/*
 	 * Object class for a node.
@@ -276,6 +276,11 @@ class linked_list {
 
 let list = new linked_list();
 
+list.add(1, null);
+list.add(2, null);
+list.add(3, null);
+
+/*
 user();
 
 /*
@@ -327,3 +332,4 @@ function user() {
 			break;
 	}
 }
+*/

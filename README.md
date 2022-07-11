@@ -32,3 +32,11 @@ The list object name is `list`
 - To remove node	**(Not working)**
 
         list.remove([node-to-be-removed]);
+
+### Bubble Sort
+
+To print the list in it's current state use 'print()'
+
+To sort the list with the normal Bubble Sort use 'sort()'
+
+To sort the list with a more efficient Bubble Sort Method use 'efficient_sort()'
