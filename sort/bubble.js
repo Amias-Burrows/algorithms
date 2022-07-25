@@ -91,4 +91,3 @@ class bubble_sort {
 	}
 }
 
-let bubble = new bubble_sort([7, 2, 10, 9, 8, 1, 3, 5, 4, 6]);	// Initialises the bubble sort algorithm

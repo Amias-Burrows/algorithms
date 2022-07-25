@@ -1,6 +1,6 @@
 # Amias' Algorithms repo
 
-To see these projects in action download the files and test them out yourself.  Unless you just want to read the code then go ahead and look whenever.
+To see these projects in action download the files and test them out yourself or visit [github.amias.dev/algorithms](https://github.amias.dev/algorithms).  Unless you just want to read the code then go ahead and look whenever.
 
 All algorithms come with hardcoded items within the lists and are built as an object to keep the functions from intertwining.
 
@@ -8,7 +8,7 @@ All algorithms come with hardcoded items within the lists and are built as an ob
 
 To access the projects you can currently only use the browser console.  The `index.html` file includes the files in the code so you can open that and use the programs instantly.  If you're unsure how to do this here's a step by step after installing the files:
 
-- Double click on `index.html` to open your browser with this file
+- Go to [github.amias.dev/algorithms](https://github.amias.dev/algorithms)
 - Right click the page and navigate to **Developer Tools** or click f12
 - Find `console` tab
 - Use commands given in the relevant section below
@@ -37,11 +37,25 @@ The list object name is `list`
 
 ### Bubble Sort
 
-To print the list in it's current state use `bubble.print()`
+To print the list in it's current state use:
 
-To sort the list with the normal Bubble Sort use `bubble.sort()`
+    bubble.print()
 
-To sort the list with a more efficient Bubble Sort Method use `bubble.efficient_sort()`
+To sort the list with the normal Bubble Sort use:
+
+    bubble.sort()
+
+To sort the list with a more efficient Bubble Sort Method use:
+
+    bubble.efficient_sort()
+
+**Or** to automate the entire process use
+
+    sort('bubble', [list-to-sort] **Optional**)
+
+or
+
+    sort('bubble_efficient', [list-to-sort] **Optional**)
 
 ### Binary Search
 

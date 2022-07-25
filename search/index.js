@@ -1,6 +1,6 @@
 function search(method, value) {
 	switch(method) {
-		case binary:
+		case 'binary':
 			console.log('This is a Binary Search');
 			binary.search(value, 0, binary.list.length - 1);
 			break;
