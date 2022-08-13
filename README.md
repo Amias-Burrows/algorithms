@@ -65,4 +65,5 @@ To search for an item within the list use either:
 
     search(binary, [value-being-found]);
 or
+
     binary.search([value-being-found], 0, binary.list.length - 1)
